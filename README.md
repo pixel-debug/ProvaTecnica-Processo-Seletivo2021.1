@@ -9,28 +9,35 @@ Todos os metodos que devem ser alterados tem o comentario com palavra CALC.
  - Dentro da pasta helpers tem 4 arquivos, todos tem 1 função que deve ser alterada
  - Dentro da paste service tem a pasta implementations, dentro dela tem uma classe com 3 métodos para serem preenchidos
 
+### TimeBalance:
+![img-SpaceTime](http://www.sciweavers.org/upload/Tex2Img_1610403406/render.png)
 
-```
-TimeBalance = formula
-
-
-```
-![img-SpaceTime](http://www.sciweavers.org/upload/Tex2Img_1610217583/render.png)
-
+### Formulas importantes para implementação:
 ![img-TimeDifferential](http://www.sciweavers.org/upload/Tex2Img_1610217692/render.png)
+
+![img-SpaceTime](http://www.sciweavers.org/upload/Tex2Img_1610217583/render.png)
 
 ![img-SynchronizePulsars](http://www.sciweavers.org/upload/Tex2Img_1610216603/render.png)
 
 
-```
-SolarSystemPosition = formula
-```
-```
-GalaxyPosition = formula
-```
-```
-UniversePosition = formula
-```
+### SolarSystemPosition: 
+se( timeDifferential < 0 ) {
+
+![img-SynchronizePulsars](http://www.sciweavers.org/upload/Tex2Img_1610402695/render.png)
+
+}se não {
+
+![img-SynchronizePulsars](http://www.sciweavers.org/upload/Tex2Img_1610402897/render.png)
+
+}
+
+
+### GalaxyPosition:
+![img-SynchronizePulsars](http://www.sciweavers.org/upload/Tex2Img_1610403099/render.png)
+
+
+### UniversePosition:
+![img-SynchronizePulsars](http://www.sciweavers.org/upload/Tex2Img_1610403236/render.png)
 
 ## O que é o SOLID?
 O SOLID é um acrônimo para 5 princípios utilizados na programação orientada a objetos apresentado inicialmente pelo Robert “Uncle Bob” Martin em um artigo publicado no ano 2000. Dito isso, segue abaixo a lista dos princípios:
