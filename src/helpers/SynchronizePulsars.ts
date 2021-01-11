@@ -4,6 +4,7 @@ import { TimeMachine } from "../entities/TimeMachine";
 import calculateSpaceTime from "./CalculateSpaceTime";
 
 const synchronizePulsars = (timeMachine:TimeMachine) => {
+    
     /**
      * CALC
      */
